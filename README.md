@@ -1,8 +1,7 @@
-# vue-beautiful-chat
+# digital-chat
 
-`vue-beautiful-chat` provides an intercom-like chat window that can be included easily in any project for free. It provides no messaging facilities, only the view component.
+`digital-chat` provides an intercom-like chat window that can be included easily in any project for free. It provides no messaging facilities, only the view component.
 
-`vue-beautiful-chat` is porting to vue of `react-beautiful-chat` (which you can find [here](https://github.com/mattmezza/react-beautiful-chat))
 
 <a href="https://www.npmjs.com/package/vue-beautiful-chat" target="\_parent">
   <img alt="" src="https://img.shields.io/npm/dm/vue-beautiful-chat.svg" />
@@ -43,7 +42,7 @@ Vue.use(Chat)
 ```vue
 <template>
   <div>
-    <beautiful-chat
+    <digital-chat
       :participants="participants"
       :titleImageUrl="titleImageUrl"
       :onMessageWasSent="onMessageWasSent"
