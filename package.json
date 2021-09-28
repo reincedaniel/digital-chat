@@ -1,13 +1,13 @@
 {
-    "name": "vue-beautiful-chat",
-    "version": "2.5.0",
+    "name": "digital-chat-utils",
+    "version": "1.0.0",
     "description": "A simple and beautiful Vue chat component backend agnostic.",
-    "main": "./dist/vue-beautiful-chat.umd.min.js",
+    "main": "./dist/digital-chat.umd.min.js",
     "repository": "https://github.com/reincedaniel/digital-chat",
     "author": "Lourenço Daniel Sebastião Carlos <reincedaniel@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "build": "vue-cli-service build --target lib --name vue-beautiful-chat --formats umd-min src/index.js",
+        "build": "vue-cli-service build --target lib --name digital-chat-utils --formats umd-min src/index.js",
         "lint": "vue-cli-service lint",
         "watch": "npm run build -- --mode development --watch",
         "prepublishOnly": "npm run build"
@@ -53,7 +53,7 @@
         "vue-js-chat"
     ],
     "bugs": {
-        "url": "https://github.com/mattmezza/vue-beautiful-chat/issues"
+        "url": "https://github.com/reincedaniel/digital-chat/issues"
     },
     "husky": {
         "hooks": {
